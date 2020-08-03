@@ -5,5 +5,5 @@ Creates base-level resources for Azure -
 
 # Example Usage
 
-"New-AzSubscriptionDeployment -Location 'westeurope' -TemplateFile .\azuredeploy.json -TemplateParameterFile .\azuredeploy.parameters.json -WhatIf"
+`New-AzSubscriptionDeployment -Location 'westeurope' -TemplateFile .\azuredeploy.json -TemplateParameterFile .\azuredeploy.parameters.json -WhatIf`
 
