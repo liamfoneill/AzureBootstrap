@@ -1,2 +1,4 @@
 # AzureBootstrap
-Creates base-level resources for Azure - Storage Account for Cloud Shell and Terraform State
+Creates base-level resources for Azure - 
+  - Geo-Redundant Storage Account for Azure Cloud Shell and associated file share
+  - Geo-Redundant Storage Account for Terraform State Storage purpose and associate blob container with a soft delete policy of 30 days
