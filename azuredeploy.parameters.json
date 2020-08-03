@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceGroupName": {
+            "value": "rg-coreinfrastructure-prod"
+        },
+        "resourceGroupLocation": {
+            "value": "westeurope"
+        },
+        "storageAccountSuffixCloudShell": {
+            "value": "lioneillcs"
+        },
+        "storageAccountSuffixTerraform": {
+            "value": "lioneilltf"
+        },
+        "containerNameTerraform": {
+            "value": "terraformstate"
+        },
+        "fileShareName": {
+            "value": "cloudshell"
+        }
+    }
+}
